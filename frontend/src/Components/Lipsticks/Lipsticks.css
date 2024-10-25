@@ -1,0 +1,53 @@
+.lipsticks-page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .product-card {
+    width: 250px;
+    height: 370PX;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .product-image {
+    width: 80px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .product-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .wishlist-button, .cart-button {
+    /* background-color: rgb(160, 156, 156); */
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: 10px;
+  }
+  
+  .wishlist-button.active, .cart-button.active {
+    color: red;
+  }
+  
+  .wishlist-button i, .cart-button i {
+    margin-right: 5px;
+    height: 20px;
+    width: auto;
+    padding: 3px;
+    border: black; 
+    padding-bottom: 10px;
+    
+  }
+  .cart-button,.wishlist-button{
+    font-size: 18px;
+  }
+  
